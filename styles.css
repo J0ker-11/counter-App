@@ -77,3 +77,17 @@ h2 {
     border: none;
     cursor: pointer;
 }
+
+
+/* SMALL SCREENS */
+
+@media screen and (min-width: 320px) and (max-width: 625px) {
+    .btn {
+        flex-direction: column;
+    }
+
+    .save-btn {
+        flex-direction: column;
+    }
+
+}
