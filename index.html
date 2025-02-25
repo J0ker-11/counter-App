@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COUNTER APP</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>People Entered:</h1>
+    <h2 id="count-el">0</h2>
+    
+   <div class="btn">
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button id="reset-btn" onclick="reset()">RESET</button>
+    <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+   </div>
+   <div class="save-btn">
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <h2 id="save">0</h2>
+   </div>
+
+    <script src="/src/app.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
